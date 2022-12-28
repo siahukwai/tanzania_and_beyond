@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Destinations - Tanzania and beyond</title>
+<link rel="icon" type="image/x-icon" href=".\logo\logo.ico">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="description" content="a photography website for destinations in Tanzania">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="Keywords" content="photography, tourism, destinations, travel, Africa, Tanzania">
+
+<link href="styles.css" rel="stylesheet">
+<link href="normalize.css" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class="nav-logo">
+            <a href="index.html"><img src=".\logo\logo.ico" alt="our logo"></a>
+        </div>
+        <div class="header-text">
+          <h1 style=" font-family: 'Lucida Handwriting';">Tanzania and Beyond</h1>
+          <p>Explore the amazing Tanzania through photography</p>
+        </div>
+    </header>
+    <nav class="topnav" id="myTopnav">
+        <a href="index.html" targer="_blank">Home</a>
+        <a href="about.html" target="_blank">About</a>
+        <a href="destinations.html" target="_blank">Destinations</a>
+        <a href="contacts.html" targer="_blank">Contacts</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+        <input type="text" placeholder="Search..">
+    </nav>
+    <div class="mytitle">
+        <h3>My Destinations</h3>
+    </div>
+    <div class="destmain">
+        <div id="myBtnContainer">
+            <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+            <button class="btn" onclick="filterSelection('Kilwa')"> Kilwa</button>
+            <button class="btn" onclick="filterSelection('Babati')"> Babati</button>
+            <button class="btn" onclick="filterSelection('Bagamoyo')"> Bagamoyo</button>
+            <button class="btn" onclick="filterSelection('Kilimanjaro')"> Kilimanjaro</button>
+            <button class="btn" onclick="filterSelection('Zanzibar')"> Zanzibar</button>
+            <button class="btn" onclick="filterSelection('Lushoto')"> Lushoto</button>
+            <button class="btn" onclick="filterSelection('Morogoro')"> Morogoro</button>
+            <button class="btn" onclick="filterSelection('Mwanza')"> Mwanza</button>
+            <button class="btn" onclick="filterSelection('Arusha')"> Arusha</button>
+            <button class="btn" onclick="filterSelection('Kigoma')"> Kigoma</button>
+            <button class="btn" onclick="filterSelection('Serengeti')"> Serengeti</button>
+        </div>
+        
+        <div class="destrow">
+            <div class="column Kilwa">
+                <div class="content"><img src=".\images\kilwa\kw1.jpg" alt="Kilwa" style="width:100%"></div>
+            </div>
+            <div class="column Kilwa">
+                <div class="content"><img src=".\images\kilwa\kw2.jpg" alt="Kilwa" style="width:100%"></div>
+            </div>
+            <div class="column Kilwa">
+                <div class="content"><img src=".\images\kilwa\kw3.jpg" alt="Kilwa" style="width:100%"></div>
+            </div>
+            <div class="column Kilwa">
+                <div class="content"><img src=".\images\kilwa\kw4.jpg" alt="Kilwa" style="width:100%"></div>
+            </div>
+            <div class="column Kilwa">
+                <div class="content"><img src=".\images\kilwa\kw5.jpg" alt="Kilwa" style="width:100%"></div>
+            </div>
+            <div class="column Kilwa">
+                <div class="content"><img src=".\images\kilwa\kw6.jpg" alt="Kilwa" style="width:100%"></div>
+            </div>
+            <div class="column Kilwa">
+                <div class="content"><img src=".\images\kilwa\kw7.jpg" alt="Kilwa" style="width:100%"></div>
+            </div>
+            <div class="column Kilwa">
+                <div class="content"><img src=".\images\kilwa\kw8.jpg" alt="Kilwa" style="width:100%"></div>
+            </div>
+            <div class="column Kilwa">
+                <div class="content"><img src=".\images\kilwa\kw9.jpg" alt="Kilwa" style="width:100%"></div>
+            </div> 
+            <div class="column Kilwa">
+                    <div class="content"><img src=".\images\kilwa\kw10.jpg" alt="Kilwa" style="width:100%"></div>    
+            </div>
+            <div class="column Kilwa">
+                <div class="content"><img src=".\images\kilwa\kw11.jpg" alt="Kilwa" style="width:100%"></div>    
+            </div>
+            <div class="column Kilwa">
+                <div class="content"><img src=".\images\kilwa\kw12.jpg" alt="Kilwa" style="width:100%"></div>    
+            </div>
+        
+            <div class="column Babati">
+                <div class="content"><img src=".\images\Babati\b1.jpg" alt="Babati" style="width:100%"></div>    
+            </div>
+            <div class="column Babati">
+                <div class="content"><img src=".\images\Babati\b2.jpg" alt="Babati" style="width:100%"></div>    
+            </div>
+            <div class="column Babati">
+                <div class="content"><img src=".\images\Babati\b3.jpg" alt="Babati" style="width:100%"></div>    
+            </div>
+            <div class="column Babati">
+                <div class="content"><img src=".\images\Babati\b4.jpg" alt="Babati" style="width:100%"></div>    
+            </div>
+            <div class="column Babati">
+                <div class="content"><img src=".\images\Babati\b5.jpg" alt="Babati" style="width:100%"></div>    
+            </div>
+            <div class="column Babati">
+                <div class="content"><img src=".\images\Babati\b6.jpg" alt="Babati" style="width:100%"></div>    
+            </div>
+            <div class="column Babati">
+                <div class="content"><img src=".\images\Babati\b7.jpg" alt="Babati" style="width:100%"></div>    
+            </div>
+            <div class="column Babati">
+                <div class="content"><img src=".\images\Babati\b8.jpg" alt="Babati" style="width:100%"></div>    
+            </div>
+            <div class="column Babati">
+                <div class="content"><img src=".\images\Babati\b9.jpg" alt="Babati" style="width:100%"></div>    
+            </div>
+            <div class="column Babati">
+                <div class="content"><img src=".\images\Babati\b10.jpg" alt="Babati" style="width:100%"></div>    
+            </div>
+            <div class="column Babati">
+                <div class="content"><img src=".\images\Babati\b11.jpg" alt="Babati" style="width:100%"></div>    
+            </div>
+            <div class="column Babati">
+                <div class="content"><img src=".\images\Babati\b12.jpg" alt="Babati" style="width:100%"></div>    
+            </div>
+
+            <div class="column Bagamoyo">
+                <div class="content"><img src=".\images\Bagamoyo\bm1.jpg" alt="Bagamoyo" style="width:100%"></div>    
+            </div>
+            <div class="column Bagamoyo">
+                <div class="content"><img src=".\images\Bagamoyo\bm2.jpg" alt="Bagamoyo" style="width:100%"></div>    
+            </div>
+            <div class="column Bagamoyo">
+                <div class="content"><img src=".\images\Bagamoyo\bm3.jpg" alt="Bagamoyo" style="width:100%"></div>    
+            </div>
+            <div class="column Bagamoyo">
+                <div class="content"><img src=".\images\Bagamoyo\bm4.jpg" alt="Bagamoyo" style="width:100%"></div>    
+            </div>
+            <div class="column Bagamoyo">
+                <div class="content"><img src=".\images\Bagamoyo\bm5.jpg" alt="Bagamoyo" style="width:100%"></div>    
+            </div>
+            <div class="column Bagamoyo">
+                <div class="content"><img src=".\images\Bagamoyo\bm6.jpg" alt="Bagamoyo" style="width:100%"></div>    
+            </div>
+            <div class="column Bagamoyo">
+                <div class="content"><img src=".\images\Bagamoyo\bm7.jpg" alt="Bagamoyo" style="width:100%"></div>    
+            </div>
+            <div class="column Bagamoyo">
+                <div class="content"><img src=".\images\Bagamoyo\bm8.jpg" alt="Bagamoyo" style="width:100%"></div>    
+            </div>
+            <div class="column Bagamoyo">
+                <div class="content"><img src=".\images\Bagamoyo\bm9.jpg" alt="Bagamoyo" style="width:100%"></div>    
+            </div>
+            <div class="column Bagamoyo">
+                <div class="content"><img src=".\images\Bagamoyo\bm10.jpg" alt="Bagamoyo" style="width:100%"></div>    
+            </div>
+            <div class="column Bagamoyo">
+                <div class="content"><img src=".\images\Bagamoyo\bm11.jpg" alt="Bagamoyo" style="width:100%"></div>    
+            </div>
+            <div class="column Bagamoyo">
+                <div class="content"><img src=".\images\Bagamoyo\bm12.jpg" alt="Bagamoyo" style="width:100%"></div>    
+            </div>
+
+            <div class="column Kilimanjaro">
+                <div class="content"><img src=".\images\Kilimanjaro\kl1.jpg" alt="Kilimanjaro" style="width:100%"></div>    
+            </div>
+            <div class="column Kilimanjaro">
+                <div class="content"><img src=".\images\Kilimanjaro\kl2.jpg" alt="Kilimanjaro" style="width:100%"></div>    
+            </div>
+            <div class="column Kilimanjaro">
+                <div class="content"><img src=".\images\Kilimanjaro\kl3.jpg" alt="Kilimanjaro" style="width:100%"></div>    
+            </div>
+            <div class="column Kilimanjaro">
+                <div class="content"><img src=".\images\Kilimanjaro\kl4.jpg" alt="Kilimanjaro" style="width:100%"></div>    
+            </div>
+            <div class="column Kilimanjaro">
+                <div class="content"><img src=".\images\Kilimanjaro\kl5.jpg" alt="Kilimanjaro" style="width:100%"></div>    
+            </div>
+            <div class="column Kilimanjaro">
+                <div class="content"><img src=".\images\Kilimanjaro\kl6.jpg" alt="Kilimanjaro" style="width:100%"></div>    
+            </div>
+            <div class="column Kilimanjaro">
+                <div class="content"><img src=".\images\Kilimanjaro\kl7.jpg" alt="Kilimanjaro" style="width:100%"></div>    
+            </div>
+            <div class="column Kilimanjaro">
+                <div class="content"><img src=".\images\Kilimanjaro\kl8.jpg" alt="Kilimanjaro" style="width:100%"></div>    
+            </div>
+            <div class="column Kilimanjaro">
+                <div class="content"><img src=".\images\Kilimanjaro\kl9.jpg" alt="Kilimanjaro" style="width:100%"></div>    
+            </div>
+            <div class="column Kilimanjaro">
+                <div class="content"><img src=".\images\Kilimanjaro\kl10.jpg" alt="Kilimanjaro" style="width:100%"></div>    
+            </div>
+            <div class="column Kilimanjaro">
+                <div class="content"><img src=".\images\Kilimanjaro\kl11.jpg" alt="Kilimanjaro" style="width:100%"></div>    
+            </div>
+            <div class="column Kilimanjaro">
+                <div class="content"><img src=".\images\Kilimanjaro\kl12.jpg" alt="Kilimanjaro" style="width:100%"></div>    
+            </div>
+            <div class="column Kilimanjaro">
+                <div class="content"><img src=".\images\Kilimanjaro\kl12.jpg" alt="Kilimanjaro" style="width:100%"></div>    
+            </div>
+
+            <div class="column Zanzibar">
+                <div class="content"><img src=".\images\Zanzibar\z1.jpg" alt="zanzibar" style="width:100%"></div>    
+            </div>
+            <div class="column Zanzibar">
+                <div class="content"><img src=".\images\Zanzibar\z2.jpg" alt="zanzibar" style="width:100%"></div>    
+            </div>
+            <div class="column Zanzibar">
+                <div class="content"><img src=".\images\Zanzibar\z3.jpg" alt="zanzibar" style="width:100%"></div>    
+            </div>
+            <div class="column Zanzibar">
+                <div class="content"><img src=".\images\Zanzibar\z4.jpg" alt="zanzibar" style="width:100%"></div>    
+            </div>
+            <div class="column Zanzibar">
+                <div class="content"><img src=".\images\Zanzibar\z5.jpg" alt="zanzibar" style="width:100%"></div>    
+            </div>
+            <div class="column Zanzibar">
+                <div class="content"><img src=".\images\Zanzibar\z6.jpg" alt="zanzibar" style="width:100%"></div>    
+            </div>
+            <div class="column Zanzibar">
+                <div class="content"><img src=".\images\Zanzibar\z7.jpg" alt="zanzibar" style="width:100%"></div>    
+            </div>
+            <div class="column Zanzibar">
+                <div class="content"><img src=".\images\Zanzibar\z8.jpg" alt="zanzibar" style="width:100%"></div>    
+            </div>
+            <div class="column Zanzibar">
+                <div class="content"><img src=".\images\Zanzibar\z9.jpg" alt="zanzibar" style="width:100%"></div>    
+            </div>
+            <div class="column Zanzibar">
+                <div class="content"><img src=".\images\Zanzibar\z10.jpg" alt="zanzibar" style="width:100%"></div>    
+            </div>
+            <div class="column Zanzibar">
+                <div class="content"><img src=".\images\Zanzibar\z11.jpg" alt="zanzibar" style="width:100%"></div>    
+            </div>
+            <div class="column Zanzibar">
+                <div class="content"><img src=".\images\Zanzibar\z12.jpg" alt="zanzibar" style="width:100%"></div>    
+            </div>
+
+            <div class="column Lushoto">
+                <div class="content"><img src=".\images\Lushoto\l1.jpg" alt="Lushoto" style="width:100%"></div>    
+            </div>
+            <div class="column Lushoto">
+                <div class="content"><img src=".\images\Lushoto\l2.jpg" alt="Lushoto" style="width:100%"></div>    
+            </div>
+            <div class="column Lushoto">
+                <div class="content"><img src=".\images\Lushoto\l3.jpg" alt="Lushoto" style="width:100%"></div>    
+            </div>
+            <div class="column Lushoto">
+                <div class="content"><img src=".\images\Lushoto\l4.jpg" alt="Lushoto" style="width:100%"></div>    
+            </div>
+            <div class="column Lushoto">
+                <div class="content"><img src=".\images\Lushoto\l5.jpg" alt="Lushoto" style="width:100%"></div>    
+            </div>
+            <div class="column Lushoto">
+                <div class="content"><img src=".\images\Lushoto\l6.jpg" alt="Lushoto" style="width:100%"></div>    
+            </div>
+
+            <div class="column Morogoro">
+                <div class="content"><img src=".\images\Morogoro\mg1.jpg" alt="Morogoro" style="width:100%"></div>    
+            </div>
+            <div class="column Morogoro">
+                <div class="content"><img src=".\images\Morogoro\mg2.jpg" alt="Morogoro" style="width:100%"></div>    
+            </div>
+            <div class="column Morogoro">
+                <div class="content"><img src=".\images\Morogoro\mg3.jpg" alt="Morogoro" style="width:100%"></div>    
+            </div>
+            <div class="column Morogoro">
+                <div class="content"><img src=".\images\Morogoro\mg4.jpg" alt="Morogoro" style="width:100%"></div>    
+            </div>
+            <div class="column Morogoro">
+                <div class="content"><img src=".\images\Morogoro\mg5.jpg" alt="Morogoro" style="width:100%"></div>    
+            </div>
+            <div class="column Morogoro">
+                <div class="content"><img src=".\images\Morogoro\mg6.jpg" alt="Morogoro" style="width:100%"></div>    
+            </div>
+            <div class="column Morogoro">
+                <div class="content"><img src=".\images\Morogoro\mg7.jpg" alt="Morogoro" style="width:100%"></div>    
+            </div>
+            <div class="column Morogoro">
+                <div class="content"><img src=".\images\Morogoro\mg8.jpg" alt="Morogoro" style="width:100%"></div>    
+            </div>
+            <div class="column Morogoro">
+                <div class="content"><img src=".\images\Morogoro\mg9.jpg" alt="Morogoro" style="width:100%"></div>    
+            </div>
+            <div class="column Morogoro">
+                <div class="content"><img src=".\images\Morogoro\mg10.jpg" alt="Morogoro" style="width:100%"></div>    
+            </div>
+            <div class="column Morogoro">
+                <div class="content"><img src=".\images\Morogoro\mg11.jpg" alt="Morogoro" style="width:100%"></div>    
+            </div>
+            <div class="column Morogoro">
+                <div class="content"><img src=".\images\Morogoro\mg12.jpg" alt="Morogoro" style="width:100%"></div>    
+            </div>
+
+            <div class="column Mwanza">
+                <div class="content"><img src=".\images\Mwanza\mz1.jpg" alt="Mwanza" style="width:100%"></div>    
+            </div>
+            <div class="column Mwanza">
+                <div class="content"><img src=".\images\Mwanza\mz2.jpg" alt="Mwanza" style="width:100%"></div>    
+            </div>
+            <div class="column Mwanza">
+                <div class="content"><img src=".\images\Mwanza\mz3.jpg" alt="Mwanza" style="width:100%"></div>    
+            </div>
+            <div class="column Mwanza">
+                <div class="content"><img src=".\images\Mwanza\mz4.jpg" alt="Mwanza" style="width:100%"></div>    
+            </div>
+            <div class="column Mwanza">
+                <div class="content"><img src=".\images\Mwanza\mz5.jpg" alt="Mwanza" style="width:100%"></div>    
+            </div>
+            <div class="column Mwanza">
+                <div class="content"><img src=".\images\Mwanza\mz6.jpg" alt="Mwanza" style="width:100%"></div>    
+            </div>
+            <div class="column Mwanza">
+                <div class="content"><img src=".\images\Mwanza\mz7.jpg" alt="Mwanza" style="width:100%"></div>    
+            </div>
+            <div class="column Mwanza">
+                <div class="content"><img src=".\images\Mwanza\mz8.jpg" alt="Mwanza" style="width:100%"></div>    
+            </div>
+            <div class="column Mwanza">
+                <div class="content"><img src=".\images\Mwanza\mz9.jpg" alt="Mwanza" style="width:100%"></div>    
+            </div>
+
+            <div class="column Arusha">
+                <div class="content"><img src=".\images\Arusha\a1.jpg" alt="Arusha" style="width:100%"></div>    
+            </div>
+            <div class="column Arusha">
+                <div class="content"><img src=".\images\Arusha\a2.jpg" alt="Arusha" style="width:100%"></div>    
+            </div>
+            <div class="column Arusha">
+                <div class="content"><img src=".\images\Arusha\a3.jpg" alt="Arusha" style="width:100%"></div>    
+            </div>
+            <div class="column Arusha">
+                <div class="content"><img src=".\images\Arusha\a4.jpg" alt="Arusha" style="width:100%"></div>    
+            </div>
+            <div class="column Arusha">
+                <div class="content"><img src=".\images\Arusha\a5.jpg" alt="Arusha" style="width:100%"></div>    
+            </div>
+            <div class="column Arusha">
+                <div class="content"><img src=".\images\Arusha\a6.jpg" alt="Arusha" style="width:100%"></div>    
+            </div>
+            <div class="column Arusha">
+                <div class="content"><img src=".\images\Arusha\a7.jpg" alt="Arusha" style="width:100%"></div>    
+            </div>
+            <div class="column Arusha">
+                <div class="content"><img src=".\images\Arusha\a8.jpg" alt="Arusha" style="width:100%"></div>    
+            </div>
+            <div class="column Arusha">
+                <div class="content"><img src=".\images\Arusha\a9.jpg" alt="Arusha" style="width:100%"></div>    
+            </div>
+
+            <div class="column Kigoma">
+                <div class="content"><img src=".\images\Kigoma\kg1.jpg" alt="Kigoma" style="width:100%"></div>    
+            </div>
+            <div class="column Kigoma">
+                <div class="content"><img src=".\images\Kigoma\kg2.jpg" alt="Kigoma" style="width:100%"></div>    
+            </div>
+            <div class="column Kigoma">
+                <div class="content"><img src=".\images\Kigoma\kg3.jpg" alt="Kigoma" style="width:100%"></div>    
+            </div>
+            <div class="column Kigoma">
+                <div class="content"><img src=".\images\Kigoma\kg4.jpg" alt="Kigoma" style="width:100%"></div>    
+            </div>
+            <div class="column Kigoma">
+                <div class="content"><img src=".\images\Kigoma\kg5.jpg" alt="Kigoma" style="width:100%"></div>    
+            </div>
+            <div class="column Kigoma">
+                <div class="content"><img src=".\images\Kigoma\kg6.jpg" alt="Kigoma" style="width:100%"></div>    
+            </div>
+
+            <div class="column Serengeti">
+                <div class="content"><img src=".\images\Serengeti\s1.jpg" alt="Serengeti" style="width:100%"></div>    
+            </div>
+            <div class="column Serengeti">
+                <div class="content"><img src=".\images\Serengeti\s2.jpg" alt="Serengeti" style="width:100%"></div>    
+            </div>
+            <div class="column Serengeti">
+                <div class="content"><img src=".\images\Serengeti\s3.jpg" alt="Serengeti" style="width:100%"></div>    
+            </div>
+        </div>
+    </div>
+      
+</body>
+<script>
+    function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+<script>
+    filterSelection("all")
+    function filterSelection(c) {
+    var x, i;
+    x = document.getElementsByClassName("column");
+    if (c == "all") c = "";
+    for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+    } 
+    }
+
+   function w3AddClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+        if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+    }
+    }
+
+    function w3RemoveClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+        while (arr1.indexOf(arr2[i]) > -1) {
+        arr1.splice(arr1.indexOf(arr2[i]), 1);     
+        }
+    }
+    element.className = arr1.join(" ");
+    }
+
+
+    // Add active class to the current button (highlight it)
+    var btnContainer = document.getElementById("myBtnContainer");
+    var btns = btnContainer.getElementsByClassName("btn");
+    for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function(){
+        var current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
+    });
+    }
+</script>     
+</html>

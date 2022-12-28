@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Tanzania and beyond</title>
+<link rel="icon" type="image/x-icon" href=".\logo\logo.ico">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="description" content="a photography website for destinations in Tanzania">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="Keywords" content="photography, tourism, destinations, travel, Africa, Tanzania">
+<style>
+* {
+  box-sizing: border-box;
+}
+</style>
+<link href="styles.css" rel="stylesheet">
+<link href="normalize.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="nav-logo">
+            <a href="index.html"><img src=".\logo\logo.ico" alt="our logo"></a>
+        </div>
+        <div class="header-text">
+          <h1 style=" font-family: 'Lucida Handwriting';">Tanzania and Beyond</h1>
+          <p>Explore the amazing Tanzania through photography</p>
+        </div>
+    </header>
+    <nav class="topnav" id="myTopnav">
+        <a href="index.html" targer="_blank">Home</a>
+        <a href="about.html" target="_blank">About</a>
+        <a href="destinations.html" target="_blank">Destinations</a>
+        <a href="contacts.html" targer="_blank">Contacts</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+        <input type="text" placeholder="Search..">
+    </nav>
+    
+        <div class="homehdr">
+            <h3>Top destinations</h3>
+        </div>
+    <div class="hmrow">
+        <div class="hmcolumn">
+            <div class="homeimg">
+                <a href="destinations.html" target="_blank"><img src=".\images\Zanzibar\z2.jpg"></a>
+                   <span>
+                    One of the most outstanding and most visited destinations in Tanzania is Zanzibar,
+                    it has it all from sandy beaches to pre and post colonial history.
+                   </span> 
+            </div>      
+        </div>
+        <div class="hmcolumn">
+            <div class="homeimg">
+                <a href="destinations.html" target="_blank"><img src=".\images\Serengeti\s1 - Copy.jpg"></a>
+                   <span>
+                    Serengeti is undoubtedly one of the top wonders of the world. From wildebeest migration
+                    to lion prides it has it all, definetly it should be top three in your Tanzania bucketlist
+                   </span> 
+            </div>
+        </div>
+        <div class="hmcolumn">
+            <div class="homeimg">
+            <a href="destinations.html" target="_blank"><img src=".\images\Kilimanjaro\kl1.jpg"></a>
+            <span>
+                    Kilimanjaro is home to the roof of Africa Mount Kilimanjaro, it is the tallest free standing
+                    mountain in Africa. Kilimanjaro offers parks and hotspring for that well deserving natural warm bath
+            </span>
+         </div>  
+       </div> 
+    </div>
+
+    <div class="homehdr">
+            <h3>Collections</h3>
+    </div> 
+    <div class="hmrow">
+        <div class="slideshow-container">
+            <h4>Sunset</h4>
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src=".\images\Bagamoyo\bm4.jpg" style="width:100%" alt="Sunset">
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src=".\images\Bagamoyo\bm6.jpg" style="width:100%" alt="Sunset">
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src=".\images\Bagamoyo\bm5.jpg" style="width:100%" alt="Sunset">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br>
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
+    </div>  
+
+</body>
+<script>
+    function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+<script>
+    let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</html>
+<!-- code used from w3schools but modified to match the idea of the website -->

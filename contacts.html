@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Contacts - Tanzania and beyond</title>
+<link rel="icon" type="image/x-icon" href=".\logo\logo.ico">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="description" content="a photography website for destinations in Tanzania">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="Keywords" content="photography, tourism, destinations, travel, Africa, Tanzania">
+<style>
+.controw{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 20%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+/* For devices larger than 400px */
+@media (min-width: 400px) {
+  .controw {
+    width: 85%;
+    padding: 0; }
+}
+
+/* For devices larger than 550px */
+@media (min-width: 550px) {
+  .controw {
+    width: 80%; 
+	text-align:justify;
+	text-justify:auto;
+	}
+}
+</style>
+<link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="nav-logo">
+            <a href="index.html"><img src=".\logo\logo.ico" alt="our logo"></a>
+        </div>
+        <div class="header-text">
+          <h1 style=" font-family: 'Lucida Handwriting';">Tanzania and Beyond</h1>
+          <p>Explore the amazing Tanzania through photography</p>
+        </div>
+    </header>
+    <nav class="topnav" id="myTopnav">
+        <a href="index.html" targer="_blank">Home</a>
+        <a href="about.html" target="_blank">About</a>
+        <a href="destinations.html" target="_blank">Destinations</a>
+        <a href="contacts.html" targer="_blank">Contacts</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+        <input type="text" placeholder="Search..">
+    </nav>
+    <div class="controw">
+        <div>
+        <p>
+            We hope you have enjoyed our website and how it has tried to showcase some
+            of the places to visit in Tanzania. If you want any information about the destinations
+            we have shared and incase you want to tell us anything we are just one email away..
+        </p>
+    </div><br>
+        <div class="four columns">
+            <form action="mailto:siahukwai@gmail.com" method="get" id="myform" name="myform">
+                  <label for="fname">Full name</label><br>
+                  <input type="text" id="fname" name="fullname"><br><br>
+                  <label for="lname">E-Mail address</address></label><br>
+                  <input type="email" id="lname" name="email"><br><br>
+                  <label for="subject">Message</label><br>
+                  <textarea id="subject" name="subject" rows="50" cols="30"></textarea><br><br>
+                  <input type="submit" value="Submit">
+                  <input type="reset" value="Reset">
+            </form>
+          </div>
+    </div>
+</body>
+<script>
+    function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+</html>

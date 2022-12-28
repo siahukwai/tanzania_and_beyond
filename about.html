@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>About - Tanzania and beyond</title>
+<link rel="icon" type="image/x-icon" href=".\logo\logo.ico">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="description" content="a photography website for destinations in Tanzania">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="Keywords" content="photography, tourism, destinations, travel, Africa, Tanzania">
+<style>
+* {
+  box-sizing: border-box;
+}
+@media screen and (max-width: 700px) {
+  .abtrow {   
+    flex-direction: column;
+  }
+}
+</style>
+<link href="styles.css" rel="stylesheet">
+<link href="normalize.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="nav-logo">
+            <a href="index.html"><img src=".\logo\logo.ico" alt="our logo"></a>
+        </div>
+        <div class="header-text">
+          <h1 style=" font-family: 'Lucida Handwriting';">Tanzania and Beyond</h1>
+          <p>Explore the amazing Tanzania through photography</p>
+        </div>
+    </header>
+    <nav class="topnav" id="myTopnav">
+        <a href="index.html" targer="_blank">Home</a>
+        <a href="about.html" target="_blank">About</a>
+        <a href="destinations.html" target="_blank">Destinations</a>
+        <a href="contacts.html" targer="_blank">Contacts</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+        <input type="text" placeholder="Search..">
+    </nav>
+    <h2 class="abthdr">About Tanzania and Beyond</h2>
+    <div class="abtrow">
+            <div class="abtside">
+                <div class="sideimg">
+                    <img src=".\images\Arusha\a4.jpg" alt="high swing"></a>
+                </div>
+            </div>    
+        <div class="abtmain">
+            <p>
+            Tanzania and beyond is all about exploring the beauty Tanzania has to offer through photography. 
+            from the beaches in Zanzibar to the roof of Africa(Mount Kilimanjaro). All
+            these photos were taken with phone cameras while visiting various places within
+            Tanzania. As we visit more places we will share with you some of interesting things
+            we found along the way and we hope you will enjoy.    
+            </p>
+       </div>
+    </div>   
+</body>
+<script>
+    function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+</html>
