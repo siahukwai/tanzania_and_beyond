@@ -459,10 +459,10 @@ background-color:#eeecdd;
   text-align: justify;
   text-justify: inter-word;}
 
-@media screen and (max-width: 700px) {
-  .hmcolumn {   
-    flex-direction: column;
-    width:100%;
+@media screen and (max-width: 800px) {
+  .homeimg {
+    flex: 50%;
+    max-width: 50%;
   }
 }
 /* Slideshow container */
