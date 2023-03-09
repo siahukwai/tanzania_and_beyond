@@ -416,11 +416,19 @@ background-color:#eeecdd;
 }
 
 @media screen and (max-width: 800px) {
-  .hmcolumn, .homeimg {
+  .hmcolumn {
     flex: 50%;
     max-width: 50%;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .hmcolumn {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
 .hmrow,
 .hmrow > .column {
   padding: 8px;
@@ -459,12 +467,7 @@ background-color:#eeecdd;
   text-align: justify;
   text-justify: inter-word;}
 
-@media screen and (max-width: 800px) {
-  .homeimg {
-    flex: 50%;
-    max-width: 50%;
-  }
-}
+
 /* Slideshow container */
 .slideshow-container {
   width: 33.33%;
