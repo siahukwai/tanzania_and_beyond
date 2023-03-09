@@ -416,9 +416,9 @@ background-color:#eeecdd;
 }
 
 @media screen and (max-width: 800px) {
-  .hmcolumn {
-    flex: 100%;
-    max-width: 100%;
+  .hmcolumn, .homeimg {
+    flex: 50%;
+    max-width: 50%;
   }
 }
 .hmrow,
