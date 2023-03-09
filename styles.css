@@ -550,7 +550,7 @@ background-color:#eeecdd;
 
 
 @media screen and (max-width: 600px) {
-  .slideshow-container {
+  .slideshow-container, .mySlides {
     flex: 100%;
     max-width: 100%;
   }
