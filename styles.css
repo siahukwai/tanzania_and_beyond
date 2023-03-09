@@ -423,6 +423,7 @@ background-color:#eeecdd;
 
 .hmrow {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   margin: 8px -16px;
   margin-left: 0;
@@ -473,7 +474,7 @@ background-color:#eeecdd;
 
 /* Slideshow container */
 .slideshow-container {
-  width: 33.33%;
+  width: 50%;
   position: relative;
   margin-right: 0;
   margin-left: 0;
@@ -545,5 +546,13 @@ background-color:#eeecdd;
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+
+@media screen and (max-width: 600px) {
+  .slideshow-container {
+    flex: 100%;
+    max-width: 100%;
+  }
 }
 /*Code used from w3schools but modified to suit the website*/
