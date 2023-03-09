@@ -457,14 +457,14 @@ background-color:#eeecdd;
   text-justify: inter-word;}
 
 @media screen and (max-width: 800px) {
-  .hmcolumn {
+  .homeimg img {
     flex: 50%;
     max-width: 50%;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .hmcolumn {
+  .homeimg img {
     flex: 100%;
     max-width: 100%;
   }
